@@ -1,6 +1,7 @@
 # zadanieBolt
 
-After running a program you can choose from 2 optioins of registrations, also you can register as Customer, person who want to order a taxi, or Provider, person who provides taxi service due to order, in each option you must post some informations about user, here they are:
+After running a program, you will connect to a postgresql database and you can choose from 2 optioins of registrations, also you can register as Customer, person who want to order a taxi, or Provider, person who provides taxi service due to order, in each option you must post some informations about user, here they are:
+
 
 Customer:
 POST http://localhost:8080/api/v1/registration
@@ -32,6 +33,7 @@ POST http://localhost:8080/api/v1/registration
 
 after that, you will also receive a confirmation email...
 
+-> if you want to send some request you have to be logged in
 -> if you are already registered you can upgrade your account to CUSTOMER_PROVIDER, but you have to be logged in
 
 Login:
