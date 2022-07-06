@@ -5,7 +5,7 @@ server:
 
 spring:
   datasource:
-    password: 724881
+    password: 
     url: jdbc:postgresql://localhost:5432/registration
     username: postgres
 
@@ -22,8 +22,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: cabadaj.m42@gmail.com
-    password: inpvjwzlfiweqinx
+    username: 
+    password: 
 
     properties:
       mail:
